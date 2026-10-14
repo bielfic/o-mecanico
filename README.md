@@ -5,7 +5,7 @@
 # O Mecânico (PC Tuning & Hardware Diagnostic)
 
 <p align="center">
-  <img src="assets/badge.jpg" alt="O Mecânico - Emblema Oficial" width="140px" />
+  <img src="assets/badge.png" alt="O Mecânico - Emblema Oficial" width="140px" />
 </p>
 
 ```text
