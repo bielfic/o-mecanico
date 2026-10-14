@@ -1,0 +1,41 @@
+{
+  "name": "o-mecanico",
+  "displayName": "O Mecânico (PC Tuning & Hardware Diagnostic)",
+  "version": "1.0.0",
+  "description": "Plugin oficial de tuning de PC, telemetria de hardware e otimização cirúrgica de recursos no Windows com estilo 8-bit retrô. Diagnostica CPU, GPU e memória RAM, executa faxina segura de temporários e ativa o modo gamer sem tocar em dados pessoais.",
+  "author": {
+    "name": "Gabriel Fic",
+    "github": "bielfic",
+    "organization": "Antigravity Ecosystem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bielfic/o-mecanico.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "antigravity",
+    "hardware",
+    "tuning",
+    "diagnostics",
+    "gaming-mode",
+    "cleaner",
+    "powershell",
+    "windows",
+    "retro-8bit"
+  ],
+  "engines": {
+    "antigravity": ">=1.0.0"
+  },
+  "suggestedPrompts": [
+    "/diagnostico",
+    "/faxina",
+    "/jogar",
+    "/processos"
+  ],
+  "capabilities": {
+    "systemTelemetry": true,
+    "processOptimization": true,
+    "safeCleanup": true
+  }
+}

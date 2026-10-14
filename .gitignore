@@ -1,0 +1,5 @@
+# Binarios e temporarios
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
