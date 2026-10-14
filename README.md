@@ -1,4 +1,12 @@
+<p align="center">
+  <img src="assets/banner.jpg" alt="O Mecânico - Banner Oficial 8-Bit" width="100%" />
+</p>
+
 # O Mecânico (PC Tuning & Hardware Diagnostic)
+
+<p align="center">
+  <img src="assets/badge.jpg" alt="O Mecânico - Emblema Oficial" width="140px" />
+</p>
 
 ```text
   ___     __  __ _____ ____   _    _   _ ___ ____ ___  
