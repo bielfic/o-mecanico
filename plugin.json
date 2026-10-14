@@ -1,8 +1,8 @@
 {
   "name": "o-mecanico",
   "displayName": "O Mecânico (PC Tuning & Hardware Diagnostic)",
-  "version": "1.0.0",
-  "description": "Plugin oficial de tuning de PC, telemetria de hardware e otimização cirúrgica de recursos no Windows com estilo 8-bit retrô. Diagnostica CPU, GPU e memória RAM, executa faxina segura de temporários e ativa o modo gamer sem tocar em dados pessoais.",
+  "version": "1.1.0",
+  "description": "Plugin oficial de tuning de PC, telemetria de hardware, cacador de gigabytes e otimizacao cirurgica de recursos no Windows com estilo 8-bit retro. Diagnostica CPU, GPU e RAM, executa faxina segura, detecta redundancias de software, mapeia gigabytes esquecidos por abandono temporal e ativa o modo gamer sem tocar em dados pessoais.",
   "author": {
     "name": "Gabriel Fic",
     "github": "bielfic",
@@ -19,7 +19,8 @@
     "tuning",
     "diagnostics",
     "gaming-mode",
-    "cleaner",
+    "disk-cleanup",
+    "gigabyte-hunter",
     "powershell",
     "windows",
     "retro-8bit"
@@ -30,12 +31,14 @@
   "suggestedPrompts": [
     "/diagnostico",
     "/faxina",
+    "/pesados",
     "/jogar",
     "/processos"
   ],
   "capabilities": {
     "systemTelemetry": true,
     "processOptimization": true,
-    "safeCleanup": true
+    "safeCleanup": true,
+    "deepDiskAudit": true
   }
 }

@@ -37,7 +37,7 @@ if ($Uninstall) {
 }
 
 Write-Host " [1/3] Verificando integridade dos arquivos fonte..." -ForegroundColor Yellow
-$requiredFiles = @("plugin.json", "README.md", "agents\mecanico.md", "skills\o-mecanico\SKILL.md")
+$requiredFiles = @("plugin.json", "README.md", "agents\mecanico.md", "skills\o-mecanico\SKILL.md", "skills\o-mecanico\scripts\pesados.ps1")
 foreach ($rf in $requiredFiles) {
     $fullRf = Join-Path $sourceDir $rf
     if (-not (Test-Path $fullRf)) {
@@ -65,6 +65,7 @@ Write-Host "| INSTALACAO CONCLUIDA COM SUCESSO! O MECANICO ESTA ATIVO NO SISTEMA
 Write-Host "+========================================================================+" -ForegroundColor Green
 Write-Host ""
 Write-Host " Como utilizar no chat do Antigravity:" -ForegroundColor Yellow
+Write-Host "   /pesados      -> O Cacador de Gigabytes (Abandono temporal e redundancias)" -ForegroundColor Cyan
 Write-Host "   /diagnostico  -> Telemetria em tempo real de CPU, GPU, RAM e Disco" -ForegroundColor Cyan
 Write-Host "   /faxina       -> Faxina segura de temporarios (Modo DryRun por padrao)" -ForegroundColor Cyan
 Write-Host "   /jogar        -> Ativacao de Modo Gamer e recuperacao de RAM fisica" -ForegroundColor Cyan
